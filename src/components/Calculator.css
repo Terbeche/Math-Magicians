@@ -1,0 +1,29 @@
+
+#calculator {
+  margin: 5rem 15rem;
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr 1fr/1fr 1fr 1fr 1fr;
+  height: 20rem;
+}
+
+#result {
+  grid-column: span 4;
+  border: solid black 0.1rem;
+  margin: 0;
+  background-color: #aaa;
+  text-align: right;
+  font-size: 2rem;
+  padding: 0.2rem;
+}
+
+#zero-button {
+  grid-column: span 2;
+}
+
+.operator {
+  background-color: #d1802a;
+}
+
+button:hover {
+  cursor: pointer;
+}
