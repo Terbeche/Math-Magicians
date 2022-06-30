@@ -2,11 +2,9 @@
 import { useState, React } from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
-// import operate from '../logic/operate';
 
 const Calculator = () => {
   const [state, setState] = useState({ total: 0, next: 0 });
-  // const { total, next } = this.state;
 
   const handleClick = (e) => {
     const operation = e.target.value;
