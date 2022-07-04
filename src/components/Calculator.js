@@ -19,27 +19,30 @@ const Calculator = () => {
   };
 
   return (
-    <div id="calculator">
-      <p id="result" onChange={handleTextChange}>{state.next || state.total || 0}</p>
-      <button type="button" onClick={handleClick} value="AC">AC</button>
-      <button type="button" onClick={handleClick} value="+/-">+/-</button>
-      <button type="button" onClick={handleClick} value="%">%</button>
-      <button className="operator" type="button" onClick={handleClick} value="÷">/</button>
-      <button type="button" onClick={handleClick} value="7">7</button>
-      <button type="button" onClick={handleClick} value="8">8</button>
-      <button type="button" onClick={handleClick} value="9">9</button>
-      <button className="operator" type="button" onClick={handleClick} value="x">x</button>
-      <button type="button" onClick={handleClick} value="4">4</button>
-      <button type="button" onClick={handleClick} value="5">5</button>
-      <button type="button" onClick={handleClick} value="6">6</button>
-      <button className="operator" type="button" onClick={handleClick} value="-">-</button>
-      <button type="button" onClick={handleClick} value="1">1</button>
-      <button type="button" onClick={handleClick} value="2">2</button>
-      <button type="button" onClick={handleClick} value="3">3</button>
-      <button className="operator" type="button" onClick={handleClick} value="+">+</button>
-      <button id="zero-button" type="button" onClick={handleClick} value="0">0</button>
-      <button type="button" onClick={handleClick} value=".">.</button>
-      <button className="operator" type="button" onClick={handleClick} value="=">=</button>
+    <div id="calculator-container">
+      <h2 className="calculator-title">Let&apos;s do some math!</h2>
+      <div id="calculator">
+        <p id="result" onChange={handleTextChange}>{state.next || state.total || 0}</p>
+        <button type="button" onClick={handleClick} value="AC">AC</button>
+        <button type="button" onClick={handleClick} value="+/-">+/-</button>
+        <button type="button" onClick={handleClick} value="%">%</button>
+        <button className="operator" type="button" onClick={handleClick} value="÷">/</button>
+        <button type="button" onClick={handleClick} value="7">7</button>
+        <button type="button" onClick={handleClick} value="8">8</button>
+        <button type="button" onClick={handleClick} value="9">9</button>
+        <button className="operator" type="button" onClick={handleClick} value="x">x</button>
+        <button type="button" onClick={handleClick} value="4">4</button>
+        <button type="button" onClick={handleClick} value="5">5</button>
+        <button type="button" onClick={handleClick} value="6">6</button>
+        <button className="operator" type="button" onClick={handleClick} value="-">-</button>
+        <button type="button" onClick={handleClick} value="1">1</button>
+        <button type="button" onClick={handleClick} value="2">2</button>
+        <button type="button" onClick={handleClick} value="3">3</button>
+        <button className="operator" type="button" onClick={handleClick} value="+">+</button>
+        <button id="zero-button" type="button" onClick={handleClick} value="0">0</button>
+        <button type="button" onClick={handleClick} value=".">.</button>
+        <button className="operator" type="button" onClick={handleClick} value="=">=</button>
+      </div>
     </div>
   );
 };

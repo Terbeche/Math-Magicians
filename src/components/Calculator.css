@@ -1,9 +1,14 @@
-
+#calculator-container{
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
 #calculator {
-  margin: 5rem 10rem;
   display: grid;
   grid-template: 1fr 1fr 1fr 1fr 1fr 1fr/1fr 1fr 1fr 1fr;
   height: 20rem;
+  width: 60%;
 }
 
 #result {
@@ -26,4 +31,8 @@
 
 button:hover {
   cursor: pointer;
+}
+
+.calculator-title {
+  color:saddlebrown;
 }

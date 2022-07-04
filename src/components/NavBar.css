@@ -1,0 +1,36 @@
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    margin: 2rem;
+background-color: antiquewhite;
+}
+
+
+.Nav-links{
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Nav-brand{
+    font-size: 3rem;
+    color: blueviolet;
+}
+
+.Nav-item{
+    font-size: 1.5rem;
+}
+
+.Nav-link{
+    color: blue;
+}
