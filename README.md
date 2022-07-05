@@ -9,7 +9,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Link to project online
-- [Online Version](https://terbeche.github.io/Math-Magicians/)
+- [Heroku](https://math-magicians-react-project.herokuapp.com/)
+- [Netlify](https://math-magicians-react-project.netlify.app/)
 
 
 ## Authors
