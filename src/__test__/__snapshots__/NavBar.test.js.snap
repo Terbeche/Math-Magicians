@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the NavBar NavBar is rendered 1`] = `
+<nav
+  className="Nav"
+>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="none"
+      height="1em"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      style={
+        Object {
+          "color": "#7b7b7b",
+          "height": "40px",
+          "width": "40px",
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="3"
+        x2="21"
+        y1="12"
+        y2="12"
+      />
+      <line
+        x1="3"
+        x2="21"
+        y1="6"
+        y2="6"
+      />
+      <line
+        x1="3"
+        x2="21"
+        y1="18"
+        y2="18"
+      />
+    </svg>
+  </button>
+  <a
+    className="Nav-brand"
+    href="/"
+    onClick={[Function]}
+  >
+    Math Magicians
+  </a>
+  <ul
+    className="Nav-links menuNav "
+  >
+    <li
+      className="Nav-item"
+    >
+      <a
+        className="Nav-link"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li
+      className="Nav-item"
+    >
+      <a
+        className="Nav-link"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    <li
+      className="Nav-item"
+    >
+      <a
+        className="Nav-link"
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
