@@ -9,7 +9,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Link to project online
-- [Heroku](https://math-magicians-react-project.herokuapp.com/)
 - [Netlify](https://math-magicians-react-project.netlify.app/)
 
 
